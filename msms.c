@@ -103,8 +103,8 @@ void init()
 {
     FILE *fp = NULL;
     int status = 0;
-    const char defaultUsername[] ="tanuj\n";
-    const char defaultPassword[] ="tanuj\n";
+    const char defaultUsername[] ="anam\n";
+    const char defaultPassword[] ="anam\n";
     sFileHeader fileHeaderInfo = {0};
     status = isFileExists(FILE_NAME);
     if(!status)
@@ -146,7 +146,7 @@ void headMessage(const char *message)
 }
 void welcomeMessage()
 {
-    headMessage("Developed By Tanuj Rawat");
+    headMessage("Developed By Anam Ansari");
     printf("\n\n\n\n\n");
     printf("\n\t\t\t  *------------------*\n");
     printf("\n\t\t\t        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
